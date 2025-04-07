@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "c9338c63-f5cb-4af7-9a25-b3f4a1c29265",
+		"name": "cuidad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43029762"
+	},
+	"item": [
+		{
+			"name": "Traer todos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/ciudad/"
+			},
+			"response": []
+		},
+		{
+			"name": "Traer uno",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/ciudad/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/ciudad/"
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/ciudad/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/ciudad/1/"
+			},
+			"response": []
+		}
+	]
+}
