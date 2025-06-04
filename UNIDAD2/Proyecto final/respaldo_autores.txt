@@ -1,10 +1,5 @@
-ID: 2
-Nombre: Raul
-Nacionalidad: Colombiano
-Edad: 33
-
-ID: 3
-Nombre: Raul
-Nacionalidad: Venezolano
-Edad: 33
+ID: 1
+Nombre: andrea
+Nacionalidad: Colombiana
+Edad: 41
 
