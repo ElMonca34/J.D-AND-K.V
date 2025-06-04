@@ -50,6 +50,18 @@ Desde la raíz del proyecto:
 
 ```bash
 cd backend
+```
+
+Si es la primera vez que ejecutas el proyecto o has realizado cambios en los modelos, ejecuta:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Luego, para iniciar el servidor:
+
+```bash
 python manage.py runserver
 ```
 
