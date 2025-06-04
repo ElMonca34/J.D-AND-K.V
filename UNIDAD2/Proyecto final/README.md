@@ -50,7 +50,7 @@ Desde la raíz del proyecto:
 
 ```bash
 cd backend
-python manage.py
+python manage.py runserver
 ```
 
 ### 2. Ejecutar el Frontend
